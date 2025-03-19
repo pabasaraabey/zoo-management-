@@ -1,0 +1,99 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8f5e9; /* Light Green */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Page Container */
+.programs-container {
+    max-width: 800px;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+h2 {
+    color: #2e7d32; /* Dark Green */
+    margin-bottom: 20px;
+}
+
+/* Search Bar */
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 60%;
+    padding: 10px;
+    border: 2px solid #4caf50;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Search Button */
+button {
+    background-color: #4caf50; /* Green */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #388e3c; /* Darker Green */
+    color: black;
+}
+
+/* Program List */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #ffffff;
+    padding: 15px;
+    margin: 10px 0;
+    border-left: 5px solid #4caf50; /* Green Highlight */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+ul li strong {
+    font-size: 18px;
+    color: #1b5e20; /* Darker Green */
+}
+
+ul li em {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Back Button (Styled Like Search Button) */
+.back-btn {
+    display: inline-block;
+    background-color: #2e7d32; /* Green */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none; /* Remove default underline */
+    margin: 20px auto; /* Center horizontally */
+}
+
+/* Hover Effect for Back Button */
+.back-btn:hover {
+    background-color: #388e3c; /* Darker Green */
+    color: black;
+}

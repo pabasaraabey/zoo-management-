@@ -1,0 +1,105 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8f5e9; /* Light Green */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Admin Panel Container */
+.admin-container {
+    max-width: 1000px;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+h2 {
+    color: #2e7d32; /* Dark Green */
+    margin-bottom: 20px;
+}
+
+/* Add New Event Button */
+a {
+    color: #ffffff;
+    background-color: #4caf50; /* Green */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+a:hover {
+    background-color: #388e3c; /* Darker Green */
+    color: black;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 12px;
+    border: 1px solid #4caf50;
+}
+
+table th {
+    background-color: #2e7d32; /* Dark Green */
+    color: white;
+}
+
+table td {
+    background-color: #f1f8e9; /* Light Green */
+}
+
+/* Table Actions (Edit, Delete) */
+a {
+    color: #1b5e20; /* Dark Green */
+    font-weight: bold;
+}
+
+a:hover {
+    color: #388e3c; /* Darker Green */
+    text-decoration:none;
+    color: black;
+}
+
+/* Logout Button */
+.logout-btn {
+    background-color: #e53935; /* Red */
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+    width: 50%;
+}
+
+.logout-btn:hover {
+    background-color: #5e3a1b; /* Dark Red */
+}
+
+.back-btn {
+    background-color: #1b5e20; /* Red */
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    width: 5%;
+    margin-top: 10px;
+}
+.back-btn:hover {
+    background-color: #4caf50;
+    color: black;
+    text-decoration: none;
+
+}
